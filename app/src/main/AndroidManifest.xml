@@ -10,8 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TryJetpackComposeState">
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
+            android:name="com.example.tryjetpackcomposestate.todo.TodoActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.TryJetpackComposeState.NoActionBar">
             <intent-filter>
@@ -20,6 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.tryjetpackcomposestate.examples.HelloCodelabActivity"
+            android:exported="true"
+            />
+        <activity android:name="com.example.tryjetpackcomposestate.examples.HelloCodeLabActivityWithViewModel"
+            android:exported="true"
+            />
     </application>
 
 </manifest>
